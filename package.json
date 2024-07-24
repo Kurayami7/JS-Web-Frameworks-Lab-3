@@ -1,0 +1,23 @@
+{
+  "name": "express-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon file1.js",
+    "start:file1": "nodemon file1.js",
+    "start:file2": "nodemon file2.js",
+    "start:file3": "nodemon file3.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "type": "module"
+}
